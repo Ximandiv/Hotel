@@ -1,0 +1,56 @@
+/*Etiqueta para ajustar el texto general*/
+*{
+    font-family: sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+
+/*Navegación*/
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+    color:#fff;
+    text-decoration: none;
+    padding: 5px 20px;
+
+}
+.nav-area li a:hover{
+    background: #fff;
+    color: #333;
+}
+
+/* Logos y Textos en general */
+.logo img{
+    width: 150px;
+    float: left;
+    height: auto;
+}
+
+footer{
+    text-align: center;
+    background-color:rgb(37, 37, 37);
+    color: white;
+}
+
+picture{
+    padding: 150px;
+    margin: 10px;
+}
+
+img{
+    height: 1000px;
+}
